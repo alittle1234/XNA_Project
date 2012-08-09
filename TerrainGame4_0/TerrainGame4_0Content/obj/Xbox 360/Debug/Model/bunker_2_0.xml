@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:NodeContent">
+    <Name>blend_root</Name>
+    <Identity>
+      <SourceFilename>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0Content\Model\bunker_2.fbx</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>100 0 0 0 0 100 0 0 0 0 100 0 0 0 0 1</Transform>
+    <Children>
+      <Child Type="Graphics:MeshContent">
+        <Name>Cube</Name>
+        <Transform>2.5622 0 0 0 0 1.39899337 0 0 0 0 0.281417876 0 0.00121350249 0.0320936628 0.04583155 1</Transform>
+        <Positions>1 1 -1 1 -1 -1 -1 -1 -1 -1 1 -1 1 0.999999 1 0.999999 -1.000001 1 -1 -1 1 -1 1 1</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource1</Material>
+            <Indices>2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 21 20 4 4 5 21</Indices>
+            <Vertices>
+              <PositionIndices>0 1 2 3 4 7 6 5 0 4 5 1 1 5 6 2 2 6 7 3 0 3</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0.5773492 0.5773492 -0.5773492 0.5773492 -0.5773492 -0.5773492 -0.5773492 -0.5773492 -0.5773492 -0.5773492 0.5773492 -0.5773492 0.5773492 0.5773492 0.5773492 -0.5773492 0.5773492 0.5773492 -0.5773492 -0.5773492 0.5773492 0.5773492 -0.5773492 0.5773492 0.5773492 0.5773492 -0.5773492 0.5773492 0.5773492 0.5773492 0.5773492 -0.5773492 0.5773492 0.5773492 -0.5773492 -0.5773492 0.5773492 -0.5773492 -0.5773492 0.5773492 -0.5773492 0.5773492 -0.5773492 -0.5773492 0.5773492 -0.5773492 -0.5773492 -0.5773492 -0.5773492 -0.5773492 -0.5773492 -0.5773492 -0.5773492 0.5773492 -0.5773492 0.5773492 0.5773492 -0.5773492 0.5773492 -0.5773492 0.5773492 0.5773492 -0.5773492 -0.5773492 0.5773492 -0.5773492</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0.333333 0 0 0 0 0.333333 0.333333 0.333333 0.333333 0.666667 0 0.666667 0 1 0.333333 1 0.666667 0.666667 0.666667 0.333333 0.333333 0.333333 0.333333 0.666667 0.666667 0.333333 0.666667 0 0.333333 0 0.333333 0.333333 0.333333 0.666667 0.333334 1 0.666667 1 0.666667 0.666667 0.333333 0.333333 0 0.333333</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+    </Children>
+  </Asset>
+  <Resources>
+    <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
+      <Name>Material__myTexture2.tga</Name>
+      <Identity>
+        <SourceFilename>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0Content\Model\bunker_2.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.640000045 0.640000045 0.640000045</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0 0 0</Data>
+      </OpaqueData>
+      <Textures>
+        <Texture Key="Texture">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+      </Textures>
+    </Resource>
+  </Resources>
+  <ExternalReferences>
+    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\..\..\..\Model\myTexture2.tga</ExternalReference>
+  </ExternalReferences>
+</XnaContent>

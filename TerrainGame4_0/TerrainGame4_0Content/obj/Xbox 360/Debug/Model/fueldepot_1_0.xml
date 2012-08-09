@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:NodeContent">
+    <Name>blend_root</Name>
+    <Identity>
+      <SourceFilename>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0Content\Model\fueldepot_1.fbx</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>100 0 0 0 0 100 0 0 0 0 100 0 0 0 0 1</Transform>
+    <Children>
+      <Child Type="Graphics:MeshContent">
+        <Name>1</Name>
+        <Transform>1 0 0 0 0 -4.371139E-08 -1 0 0 1 -4.371139E-08 0 0 0 0 1</Transform>
+        <Positions>0.154836 0.146721 -0.029176 0.357246 -0.379596 -0.029176 -0.357246 -0.289214 -0.029176 -0.20835 0.379596 -0.029176 0.154836 0.14672 0.029176 0.357245 -0.379596 0.029176 -0.357246 -0.289213 0.029176 -0.20835 0.379596 0.029176</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource1</Material>
+            <Indices>2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 20 8 9 9 21 20</Indices>
+            <Vertices>
+              <PositionIndices>0 1 2 3 4 7 6 5 0 4 5 1 1 5 6 2 2 6 7 3 3 7</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0.685934 0.5591296 -0.4656209 0.5637379 -0.441816449 -0.6978057 -0.6566973 -0.461867124 -0.596148551 -0.286935031 0.696523964 -0.6576434 0.685934 0.5591296 0.465651423 -0.286935031 0.696523964 0.6576434 -0.6566973 -0.461867124 0.596118033 0.5637379 -0.441816449 0.6978057 0.685934 0.5591296 -0.4656209 0.685934 0.5591296 0.465651423 0.5637379 -0.441816449 0.6978057 0.5637379 -0.441816449 -0.6978057 0.5637379 -0.441816449 -0.6978057 0.5637379 -0.441816449 0.6978057 -0.6566973 -0.461867124 0.596118033 -0.6566973 -0.461867124 -0.596148551 -0.6566973 -0.461867124 -0.596148551 -0.6566973 -0.461867124 0.596118033 -0.286935031 0.696523964 0.6576434 -0.286935031 0.696523964 -0.6576434 -0.286935031 0.696523964 -0.6576434 -0.286935031 0.696523964 0.6576434</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0.915767 0.098056 0.700688 3.9E-05 0.700701 0.264581 0.996069 0.241141 0.620385 0.166525 0.700688 0.02344 0.40532 0 0.405306 0.264542 0.186793 0.264867 0.18945 0.999514 0.386221 0.999002 0.383564 0.264355 0.698031 1 0.700688 0.265353 0.388877 0.264542 0.386221 0.999188 0.700688 0.265354 0.703344 1 1 0.999228 0.997344 0.264581 0 0.265353 0.002657 1</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+    </Children>
+  </Asset>
+  <Resources>
+    <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
+      <Name>None__fueldepot_1.tga</Name>
+      <Identity>
+        <SourceFilename>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0Content\Model\fueldepot_1.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0.160000011 0.160000011 0.160000011</Data>
+        <Data Key="SpecularPower" Type="float">80</Data>
+      </OpaqueData>
+      <Textures>
+        <Texture Key="Texture">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+      </Textures>
+    </Resource>
+  </Resources>
+  <ExternalReferences>
+    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\..\..\..\Model\fueldepot_1.tga</ExternalReference>
+  </ExternalReferences>
+</XnaContent>

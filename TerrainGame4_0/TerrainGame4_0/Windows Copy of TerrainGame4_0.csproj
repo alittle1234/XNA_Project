@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{01C74DF4-EED5-4C3E-B8C3-73CCD894DB89}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TerrainGame4_0</RootNamespace>
+    <AssemblyName>TerrainGame4_0</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaProfile>HiDef</XnaProfile>
+    <XnaCrossPlatformGroupID>dbc07d71-18de-4d87-9311-b0265d0931e4</XnaCrossPlatformGroupID>
+    <XnaOutputType>Game</XnaOutputType>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <Thumbnail>
+    </Thumbnail>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>false</XnaCompressContent>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TerrainGame4_0Content\TerrainGame4_0Content.contentproj">
+      <Name>TerrainGame4_0Content</Name>
+      <XnaReferenceType>Content</XnaReferenceType>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GameDebugTools\DebugCommandUI.cs" />
+    <Compile Include="GameDebugTools\DebugManager.cs" />
+    <Compile Include="GameDebugTools\DebugSystem.cs" />
+    <Compile Include="GameDebugTools\FpsCounter.cs" />
+    <Compile Include="GameDebugTools\IDebugCommandHost.cs" />
+    <Compile Include="GameDebugTools\KeyboardUtils.cs" />
+    <Compile Include="GameDebugTools\Layout.cs" />
+    <Compile Include="GameDebugTools\RemoteDebugCommand.cs" />
+    <Compile Include="GameDebugTools\StringBuilderExtensions.cs" />
+    <Compile Include="GameDebugTools\TimeRuler.cs" />
+    <Compile Include="Game\LevelSelectScreen.cs" />
+    <Compile Include="Game\LoadingGameScreen.cs" />
+    <Compile Include="JigLibX\Objects\BoxObject.cs" />
+    <Compile Include="JigLibX\Objects\CapsuleObject.cs" />
+    <Compile Include="JigLibX\Objects\PhysicObject.cs" />
+    <Compile Include="JigLibX\Objects\RagdollObject.cs" />
+    <Compile Include="JigLibX\Objects\SphereObject.cs" />
+    <Compile Include="Levels\LevelCode.cs" />
+    <Compile Include="Levels\Level_01.cs" />
+    <Compile Include="Levels\Level_02.cs" />
+    <Compile Include="Levels\Level_03.cs" />
+    <Compile Include="Levels\Level_04.cs" />
+    <Compile Include="Levels\Level_05.cs" />
+    <Compile Include="Levels\Level_06.cs" />
+    <Compile Include="Levels\Level_07.cs" />
+    <Compile Include="Levels\Level_08.cs" />
+    <Compile Include="Levels\Level_09.cs" />
+    <Compile Include="Levels\Level_10.cs" />
+    <Compile Include="Levels\Level_11.cs" />
+    <Compile Include="Levels\Level_12.cs" />
+    <Compile Include="Levels\Level_21.cs" />
+    <Compile Include="Levels\Level_22.cs" />
+    <Compile Include="Levels\Level_23.cs" />
+    <Compile Include="Levels\Level_24.cs" />
+    <Compile Include="Game\MainMenuTime.cs" />
+    <Compile Include="Levels\Level_25.cs" />
+    <Compile Include="Levels\Level_26.cs" />
+    <Compile Include="Levels\Level_27.cs" />
+    <Compile Include="Levels\Level_28.cs" />
+    <Compile Include="Levels\Level_29.cs" />
+    <Compile Include="Levels\Level_30.cs" />
+    <Compile Include="Levels\Level_31.cs" />
+    <Compile Include="Levels\Level_32.cs" />
+    <Compile Include="ParticleSystems\BuildingColumnParticles.cs" />
+    <Compile Include="ParticleSystems\BuildingDiskParticles.cs" />
+    <Compile Include="ParticleSystems\ConcreteParticleSystem.cs" />
+    <Compile Include="ParticleSystems\RingExplosionParticleSystem.cs" />
+    <Compile Include="ParticleSystems\SparkParticleSystem.cs" />
+    <Compile Include="Unfiled\Firework.cs" />
+    <Compile Include="Game\BackgroundScreen.cs" />
+    <Compile Include="Game\DrawingClass.cs" />
+    <None Include="Game\Game1.cs" />
+    <Compile Include="Game\GameplayScreen.cs" />
+    <Compile Include="ScreenManager\GameScreen.cs" />
+    <Compile Include="Game\GameSession.cs" />
+    <Compile Include="ScreenManager\IMessageDisplay.cs" />
+    <Compile Include="ScreenManager\InputState.cs" />
+    <Compile Include="Game\LoadingScreen.cs" />
+    <Compile Include="Game\MainMenuScreen.cs" />
+    <Compile Include="ScreenManager\MenuEntry.cs" />
+    <Compile Include="Game\MenuScreen.cs" />
+    <Compile Include="ScreenManager\MessageBoxScreen.cs" />
+    <Compile Include="ScreenManager\MessageDisplayComponent.cs" />
+    <Compile Include="Game\PauseMenuScreen.cs" />
+    <Compile Include="ScreenManager\PlayerIndexEventArgs.cs" />
+    <Compile Include="Game\Program.cs" />
+    <Compile Include="ScreenManager\ScreenManager.cs" />
+    <Compile Include="JigLibX\Collision\CollisionInfo.cs" />
+    <Compile Include="JigLibX\Collision\CollisionSkin.cs" />
+    <Compile Include="JigLibX\Collision\CollisionSystem.cs" />
+    <Compile Include="JigLibX\Collision\CollisionSystemBrute.cs" />
+    <Compile Include="JigLibX\Collision\CollisionSystemGrid.cs" />
+    <Compile Include="JigLibX\Collision\CollisionSystemSAP.cs" />
+    <Compile Include="JigLibX\Collision\Detection\BoxBox.cs" />
+    <Compile Include="JigLibX\Collision\Detection\BoxHeightmap.cs" />
+    <Compile Include="JigLibX\Collision\Detection\BoxPlane.cs" />
+    <Compile Include="JigLibX\Collision\Detection\BoxStaticMesh.cs" />
+    <Compile Include="JigLibX\Collision\Detection\CapsuleBox.cs" />
+    <Compile Include="JigLibX\Collision\Detection\CapsuleCapsule.cs" />
+    <Compile Include="JigLibX\Collision\Detection\CapsuleHeightmap.cs" />
+    <Compile Include="JigLibX\Collision\Detection\CapsulePlane.cs" />
+    <Compile Include="JigLibX\Collision\Detection\CapsuleStaticMesh.cs" />
+    <Compile Include="JigLibX\Collision\Detection\DetectFunctor.cs" />
+    <Compile Include="JigLibX\Collision\Detection\SphereBox.cs" />
+    <Compile Include="JigLibX\Collision\Detection\SphereCapsule.cs" />
+    <Compile Include="JigLibX\Collision\Detection\SphereHeightmap.cs" />
+    <Compile Include="JigLibX\Collision\Detection\SpherePlane.cs" />
+    <Compile Include="JigLibX\Collision\Detection\SphereSphere.cs" />
+    <Compile Include="JigLibX\Collision\Detection\SphereStaticMesh.cs" />
+    <Compile Include="JigLibX\Collision\Materials.cs" />
+    <Compile Include="JigLibX\Geometry\Distance.cs" />
+    <Compile Include="JigLibX\Geometry\IndexedTriangle.cs" />
+    <Compile Include="JigLibX\Geometry\Intersection.cs" />
+    <Compile Include="JigLibX\Geometry\Line.cs" />
+    <Compile Include="JigLibX\Geometry\Octree.cs" />
+    <Compile Include="JigLibX\Geometry\Overlap.cs" />
+    <Compile Include="JigLibX\Geometry\Primitives\AABox.cs" />
+    <Compile Include="JigLibX\Geometry\Primitives\Box.cs" />
+    <Compile Include="JigLibX\Geometry\Primitives\Capsule.cs" />
+    <Compile Include="JigLibX\Geometry\Primitives\Heightmap.cs" />
+    <Compile Include="JigLibX\Geometry\Primitives\Plane.cs" />
+    <Compile Include="JigLibX\Geometry\Primitives\Primitive.cs" />
+    <Compile Include="JigLibX\Geometry\Primitives\Sphere.cs" />
+    <Compile Include="JigLibX\Geometry\Primitives\TriangleMesh.cs" />
+    <Compile Include="JigLibX\Geometry\Rectangle.cs" />
+    <Compile Include="JigLibX\Geometry\Triangle.cs" />
+    <Compile Include="JigLibX\JigLibX.cs" />
+    <Compile Include="JigLibX\JigLibXException.cs" />
+    <Compile Include="JigLibX\Math\JiggleMath.cs" />
+    <Compile Include="JigLibX\Math\Transform.cs" />
+    <Compile Include="JigLibX\Physics\Body.cs" />
+    <Compile Include="JigLibX\Physics\Constraint.cs" />
+    <Compile Include="JigLibX\Physics\ConstraintMaxDistance.cs" />
+    <Compile Include="JigLibX\Physics\ConstraintPoint.cs" />
+    <Compile Include="JigLibX\Physics\ConstraintVelocity.cs" />
+    <Compile Include="JigLibX\Physics\ConstraintWorldPoint.cs" />
+    <Compile Include="JigLibX\Physics\Controller.cs" />
+    <Compile Include="JigLibX\Physics\HingeJoint.cs" />
+    <Compile Include="JigLibX\Physics\Joint.cs" />
+    <Compile Include="JigLibX\Physics\PhysicsCollision.cs" />
+    <Compile Include="JigLibX\Physics\PhysicsSystem.cs" />
+    <Compile Include="JigLibX\Utils\Array2D.cs" />
+    <Compile Include="JigLibX\Utils\BodyRenderExtension.cs" />
+    <Compile Include="JigLibX\Utils\JiggleUnsafe.cs" />
+    <Compile Include="JigLibX\Vehicles\Car.cs" />
+    <Compile Include="JigLibX\Vehicles\Chassis.cs" />
+    <Compile Include="JigLibX\Vehicles\Wheel.cs" />
+    <Compile Include="Level\Condition.cs" />
+    <Compile Include="Level\EnemySpawn.cs" />
+    <Compile Include="Level\EventFlag.cs" />
+    <Compile Include="Level\GameEvent.cs" />
+    <Compile Include="Level\Level.cs" />
+    <Compile Include="Level\LevelLoader.cs" />
+    <Compile Include="Level\LevelVariables.cs" />
+    <Compile Include="Level\ResourceList.cs" />
+    <Compile Include="Level\Spawn.cs" />
+    <Compile Include="Load\LoadingStage.cs" />
+    <Compile Include="Networking\AvailableSessionMenuEntry.cs" />
+    <Compile Include="Networking\CreateOrFindSessionScreen.cs" />
+    <Compile Include="Networking\JoinSessionScreen.cs" />
+    <Compile Include="Networking\LobbyScreen.cs" />
+    <Compile Include="Networking\NetworkBusyScreen.cs" />
+    <Compile Include="Networking\NetworkErrorScreen.cs" />
+    <Compile Include="Networking\NetworkSessionComponent.cs" />
+    <Compile Include="Networking\OperationCompletedEventArgs.cs" />
+    <Compile Include="Networking\ProfileSignInScreen.cs" />
+    <Compile Include="Particle Related\ParticleEmitter.cs" />
+    <Compile Include="Particle Related\ParticleSettings.cs" />
+    <Compile Include="Particle Related\ParticleSystem.cs" />
+    <Compile Include="Particle Related\ParticleVertex.cs" />
+    <Compile Include="ParticleSystems\ExplosionParticleSystem.cs" />
+    <Compile Include="ParticleSystems\ExplosionSmokeParticleSystem.cs" />
+    <Compile Include="ParticleSystems\FireParticleSystem.cs" />
+    <Compile Include="ParticleSystems\ProjectileTrailParticleSystem.cs" />
+    <Compile Include="ParticleSystems\ShotExplosionParticleSystem.cs" />
+    <Compile Include="ParticleSystems\ShotSmokeParticleSystem.cs" />
+    <Compile Include="ParticleSystems\SmokePlumeParticleSystem.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Unfiled\BloomComponent.cs" />
+    <Compile Include="Unfiled\BloomSettings.cs" />
+    <Compile Include="Unfiled\BoxActor.cs" />
+    <Compile Include="Unfiled\Building.cs" />
+    <Compile Include="Unfiled\BuildingPiece.cs" />
+    <Compile Include="Unfiled\CarObject.cs" />
+    <Compile Include="Unfiled\DebugDrawer.cs" />
+    <Compile Include="Unfiled\Decal.cs" />
+    <Compile Include="Unfiled\EnemyTank.cs" />
+    <Compile Include="Unfiled\FollowCam.cs" />
+    <Compile Include="Unfiled\GameObject.cs" />
+    <Compile Include="Unfiled\MenuLoadList.cs" />
+    <Compile Include="Unfiled\MenuResources.cs" />
+    <Compile Include="Unfiled\Missile.cs" />
+    <Compile Include="Unfiled\MouseCamera.cs" />
+    <Compile Include="Unfiled\ParentGame.cs" />
+    <Compile Include="Unfiled\PhysicsForce.cs" />
+    <Compile Include="Unfiled\PlayerTank.cs" />
+    <Compile Include="Unfiled\Projectile.cs" />
+    <Compile Include="Unfiled\Ring.cs" />
+    <Compile Include="Unfiled\Stage.cs" />
+    <Compile Include="Unfiled\TerrainEditor.cs" />
+    <Compile Include="Unfiled\TerrainEngine.cs" />
+    <Compile Include="Unfiled\TriangleMeshActor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="JigLibX\Content\Properties\" />
+    <Folder Include="JigLibX\Properties\" />
+    <Folder Include="Level Edit\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Game\Game.ico" />
+    <Content Include="Game\GameThumbnail.png" />
+    <Content Include="JigLibX\JigLibX Xbox 360.csproj" />
+    <Content Include="JigLibX\JigLibX.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="JigLibX\Content\Content.contentproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Xna.Framework.4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft XNA Framework Redistributable 4.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Avatar, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.GamerServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Storage, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Video, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!--
+      To modify your build process, add your task inside one of the targets below and uncomment it. 
+      Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+    -->
+</Project>

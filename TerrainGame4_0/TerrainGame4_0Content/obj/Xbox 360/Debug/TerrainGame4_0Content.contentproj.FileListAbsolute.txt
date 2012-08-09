@@ -1,0 +1,2 @@
+c:\users\admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0Content\obj\Xbox 360\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0Content\obj\Xbox 360\Debug\Audio\ArtillarySound.xml

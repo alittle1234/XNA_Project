@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:NodeContent">
+    <Name>blend_root</Name>
+    <Identity>
+      <SourceFilename>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0Content\Model\arty_plain_01.fbx</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>100 0 0 0 0 100 0 0 0 0 100 0 0 0 0 1</Transform>
+    <Children>
+      <Child Type="Graphics:MeshContent">
+        <Name>baseM</Name>
+        <Transform>-4.371139E-08 -1 0 0 1 -4.371139E-08 0 0 0 0 1 0 3.65078449E-07 2.402812E-07 -0.957862854 1</Transform>
+        <Children>
+          <Child Type="Graphics:MeshContent">
+            <Name>turretM</Name>
+            <Transform>-4.371139E-08 1 0 0 -1 -4.371139E-08 0 0 0 0 1 0 -1.249775E-07 0.0197492763 2.35022 1</Transform>
+            <Children>
+              <Child Type="Graphics:MeshContent">
+                <Name>cannonM</Name>
+                <Transform>1 0 0 0 0 1 0 0 0 0 1 0 1.07636106 6.46147E-14 0.908488035 1</Transform>
+                <Positions>1.922107 0.546331 -0.546332 1.922107 -0.546332 -0.546332 0.013368 -0.546332 -0.546332 0.013369 0.546332 -0.546332 1.922107 0.546331 0.546332 1.922106 -0.546332 0.546332 0.013368 -0.546332 0.546332 0.013368 0.546331 0.546332</Positions>
+                <Geometry>
+                  <Batch>
+                    <Indices>2 1 0 0 3 2 6 5 4 4 7 6 7 4 0 0 1 7 6 7 1 1 2 6 5 6 2 2 3 5 3 0 4 4 5 3</Indices>
+                    <Vertices>
+                      <PositionIndices>0 1 2 3 4 7 6 5</PositionIndices>
+                      <Channels>
+                        <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0.5773492 0.5773492 -0.5773492 0.5773492 -0.5773492 -0.5773492 -0.5773492 -0.5773492 -0.5773492 -0.5773492 0.5773492 -0.5773492 0.5773492 0.5773492 0.5773492 -0.5773492 0.5773492 0.5773492 -0.5773492 -0.5773492 0.5773492 0.5773492 -0.5773492 0.5773492</VertexChannel>
+                      </Channels>
+                    </Vertices>
+                  </Batch>
+                </Geometry>
+              </Child>
+            </Children>
+            <Positions>0.829273 0.849022 0.000216 0.829273 -0.849023 0.000216 -0.868772 -0.849023 0.000216 -0.868772 0.849023 0.000216 0.829273 0.849022 1.698261 0.829273 -0.849024 1.698261 -0.868773 -0.849023 1.698261 -0.868772 0.849022 1.698261</Positions>
+            <Geometry>
+              <Batch>
+                <Indices>2 1 0 0 3 2 6 5 4 4 7 6 7 4 0 0 1 7 6 7 1 1 2 6 5 6 2 2 3 5 3 0 4 4 5 3</Indices>
+                <Vertices>
+                  <PositionIndices>0 1 2 3 4 7 6 5</PositionIndices>
+                  <Channels>
+                    <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0.5773492 0.5773492 -0.5773492 0.5773492 -0.5773492 -0.5773492 -0.5773492 -0.5773492 -0.5773492 -0.5773492 0.5773492 -0.5773492 0.5773492 0.5773492 0.5773492 -0.5773492 0.5773492 0.5773492 -0.5773492 -0.5773492 0.5773492 0.5773492 -0.5773492 0.5773492</VertexChannel>
+                  </Channels>
+                </Vertices>
+              </Batch>
+            </Geometry>
+          </Child>
+        </Children>
+        <Positions>1.001214 1.032093 0.003694 1.001214 -0.967907 0.003694 -0.998786 -0.967907 0.003694 -0.998786 1.032094 0.003694 1.001214 1.032093 2.003695 1.001213 -0.967907 2.003695 -0.998787 -0.967906 2.003695 -0.998786 1.032093 2.003695</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource1</Material>
+            <Indices>2 1 0 0 3 2 6 5 4 4 7 6 7 4 0 0 1 7 6 7 1 1 2 6 5 6 2 2 3 5 3 0 4 4 5 3</Indices>
+            <Vertices>
+              <PositionIndices>0 1 2 3 4 7 6 5</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0.5773492 0.5773492 -0.5773492 0.5773492 -0.5773492 -0.5773492 -0.5773492 -0.5773492 -0.5773492 -0.5773492 0.5773492 -0.5773492 0.5773492 0.5773492 0.5773492 -0.5773492 0.5773492 0.5773492 -0.5773492 -0.5773492 0.5773492 0.5773492 -0.5773492 0.5773492</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+    </Children>
+  </Asset>
+  <Resources>
+    <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
+      <Name>Material</Name>
+      <Identity>
+        <SourceFilename>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0Content\Model\arty_plain_01.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.640000045 0.640000045 0.640000045</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0 0 0</Data>
+      </OpaqueData>
+    </Resource>
+  </Resources>
+</XnaContent>

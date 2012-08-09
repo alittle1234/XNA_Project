@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:NodeContent">
+    <Name>blend_root</Name>
+    <Identity>
+      <SourceFilename>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0Content\Model\building_tower_front4.fbx</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>100 0 0 0 0 100 0 0 0 0 100 0 0 0 0 1</Transform>
+    <Children>
+      <Child Type="Graphics:MeshContent">
+        <Name>4</Name>
+        <Transform>0.36017397 0 0 0 0 -1.5743705E-08 -0.36017397 0 0 0.36017397 -1.5743705E-08 0 0 0 0 1</Transform>
+        <Positions>0.742027 0.429357 -0.674571 0.742027 -0.579612 -0.674571 -0.250542 -0.407868 -0.529293 -0.627441 0.463623 -0.674571 0.671607 0.672034 0.672374 0.150113 -0.264267 0.674571 -0.742027 -0.672034 0.560316 -0.407569 0.226868 0.363098</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource1</Material>
+            <Indices>2 1 0 2 3 1 6 5 4 7 6 4 10 9 8 10 11 9 14 13 12 15 14 12 18 17 16 18 19 17 22 21 20 23 22 20</Indices>
+            <Vertices>
+              <PositionIndices>4 0 7 3 2 6 7 3 1 5 2 6 0 4 5 1 4 7 5 6 0 1 2 3</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0.177098915 0.582781434 0.793054 0.575823247 0.5435957 -0.6106449 -0.6969817 0.5817133 0.419263273 -0.75176245 0.359874278 -0.5525376 -0.491714239 -0.6287118 -0.602404833 -0.7503891 -0.3574633 0.5559557 -0.6969817 0.5817133 0.419263273 -0.75176245 0.359874278 -0.5525376 0.507370234 -0.7905515 -0.342844933 0.4224067 -0.5429243 0.7257607 -0.491714239 -0.6287118 -0.602404833 -0.7503891 -0.3574633 0.5559557 0.575823247 0.5435957 -0.6106449 0.177098915 0.582781434 0.793054 0.4224067 -0.5429243 0.7257607 0.507370234 -0.7905515 -0.342844933 0.177098915 0.582781434 0.793054 -0.6969817 0.5817133 0.419263273 0.4224067 -0.5429243 0.7257607 -0.7503891 -0.3574633 0.5559557 0.575823247 0.5435957 -0.6106449 0.507370234 -0.7905515 -0.342844933 -0.491714239 -0.6287118 -0.602404833 -0.75176245 0.359874278 -0.5525376</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0.404006 1 0.404051 0.562044 0.060012 0.907968 0 0.570765 0.71753 0.064564 0.717513 0.398188 0.926465 0.344745 1 0 0.404051 0.562044 0.403675 0.108802 0.176662 0.443977 0.111589 0.051713 0.428302 0.562138 0.404051 1 0.717099 0.990146 0.717513 0.506464 0.74738 0.398188 0.717513 0.789437 0.937264 0.679211 0.937572 1 0.404051 0.496209 0.705898 0.506464 0.666014 0.179301 0.404088 0.051211</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+    </Children>
+  </Asset>
+  <Resources>
+    <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
+      <Name>None__building_tower_fr.003</Name>
+      <Identity>
+        <SourceFilename>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0Content\Model\building_tower_front4.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0.160000011 0.160000011 0.160000011</Data>
+        <Data Key="SpecularPower" Type="float">80</Data>
+      </OpaqueData>
+      <Textures>
+        <Texture Key="Texture">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+      </Textures>
+    </Resource>
+  </Resources>
+  <ExternalReferences>
+    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\..\..\..\Model\building_tower_front_4.tga</ExternalReference>
+  </ExternalReferences>
+</XnaContent>

@@ -1,0 +1,2171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Effect\BloomCombine.fx</Source>
+      <Name>Effect\BloomCombine</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Effect\BloomCombine.xnb</Output>
+      <Time>2010-11-10T08:15:37.2979005-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Effect\BloomExtract.fx</Source>
+      <Name>Effect\BloomExtract</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Effect\BloomExtract.xnb</Output>
+      <Time>2010-11-10T08:15:59.1749005-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Effect\DrawModel.fx</Source>
+      <Name>Effect\DrawModel</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Effect\DrawModel.xnb</Output>
+      <Time>2010-11-08T16:29:23.1153064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Effect\Effect.fx</Source>
+      <Name>Effect\Effect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Effect\Effect.xnb</Output>
+      <Time>2010-11-10T08:17:43.6719005-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Effect\GaussianBlur.fx</Source>
+      <Name>Effect\GaussianBlur</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Effect\GaussianBlur.xnb</Output>
+      <Time>2010-11-12T15:41:22.3671086-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Effect\GaussianBlurB.fx</Source>
+      <Name>Effect\GaussianBlurB</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Effect\GaussianBlurB.xnb</Output>
+      <Time>2010-11-10T08:40:32.7439005-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Effect\MyEffect.fx</Source>
+      <Name>Effect\MyEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Effect\MyEffect.xnb</Output>
+      <Time>2010-11-08T16:29:23.1443064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Effect\MyVSM.fx</Source>
+      <Name>Effect\MyVSM</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Effect\MyVSM.xnb</Output>
+      <Time>2010-11-30T13:06:48.3251092-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Effect\ParticleEffect.fx</Source>
+      <Name>Effect\ParticleEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Effect\ParticleEffect.xnb</Output>
+      <Time>2010-12-17T08:54:08.4887112-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Effect\PostProcessDoF.fx</Source>
+      <Name>Effect\PostProcessDoF</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Effect\PostProcessDoF.xnb</Output>
+      <Time>2010-11-10T08:21:13.0039005-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Effect\Shader.fx</Source>
+      <Name>Effect\Shader</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Effect\Shader.xnb</Output>
+      <Time>2010-11-10T08:21:46.9059005-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Effect\Shadow.fx</Source>
+      <Name>Effect\Shadow</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Effect\Shadow.xnb</Output>
+      <Time>2010-11-10T08:22:02.9209005-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Effect\Texture.fx</Source>
+      <Name>Effect\Texture</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Effect\Texture.xnb</Output>
+      <Time>2010-11-08T16:29:23.1963064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Font\SpriteFont1.spritefont</Source>
+      <Name>Font\SpriteFont1</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Font\SpriteFont1.xnb</Output>
+      <Time>2010-11-08T16:29:23.2103064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\model.fbx</Source>
+      <Name>Menu\model</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Menu\model.xnb</Output>
+      <Time>2010-11-08T16:29:23.3293064-06:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Menu\model_0.xml</Key>
+        <Value>2010-11-09T11:19:33.6519029-06:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\arty_plain_01.fbx</Source>
+      <Name>Model\arty_plain_01</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\arty_plain_01.xnb</Output>
+      <Time>2010-11-08T16:29:23.3593064-06:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Model\arty_plain_01_0.xml</Key>
+        <Value>2010-11-09T11:19:33.8189029-06:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\bunker_1.fbx</Source>
+      <Name>Model\bunker_1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\bunker_1.xnb</Output>
+      <Time>2010-11-08T16:29:23.3703064-06:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Model\bunker_1_0.xml</Key>
+        <Value>2010-11-09T11:19:33.9799029-06:00</Value>
+      </Dependency>
+      <Request>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\myTexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\bunker_2.fbx</Source>
+      <Name>Model\bunker_2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\bunker_2.xnb</Output>
+      <Time>2010-11-08T16:29:23.3873064-06:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Model\bunker_2_0.xml</Key>
+        <Value>2010-11-09T11:19:35.1499029-06:00</Value>
+      </Dependency>
+      <Request>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\myTexture2_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\bunker_3.fbx</Source>
+      <Name>Model\bunker_3</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\bunker_3.xnb</Output>
+      <Time>2010-11-08T16:29:23.4063064-06:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Model\bunker_3_0.xml</Key>
+        <Value>2010-11-09T11:19:36.4799029-06:00</Value>
+      </Dependency>
+      <Request>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\myTexture2_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\missile.fbx</Source>
+      <Name>Model\missile</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\missile.xnb</Output>
+      <Time>2010-11-08T16:29:23.8913064-06:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Model\missile_0.xml</Key>
+        <Value>2010-11-09T11:19:36.6429029-06:00</Value>
+      </Dependency>
+      <Request>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\missile_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Loading\IMG00000.bmp</Source>
+      <Name>Loading\IMG00000</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Loading\IMG00000.xnb</Output>
+      <Time>2010-11-08T16:29:23.2183064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Loading\IMG00001.bmp</Source>
+      <Name>Loading\IMG00001</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Loading\IMG00001.xnb</Output>
+      <Time>2010-11-08T16:29:23.2213064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Loading\IMG00002.bmp</Source>
+      <Name>Loading\IMG00002</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Loading\IMG00002.xnb</Output>
+      <Time>2010-11-08T16:29:23.2233064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Loading\IMG00003.bmp</Source>
+      <Name>Loading\IMG00003</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Loading\IMG00003.xnb</Output>
+      <Time>2010-11-08T16:29:23.2263064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Loading\IMG00004.bmp</Source>
+      <Name>Loading\IMG00004</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Loading\IMG00004.xnb</Output>
+      <Time>2010-11-08T16:29:23.2293064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Loading\IMG00005.bmp</Source>
+      <Name>Loading\IMG00005</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Loading\IMG00005.xnb</Output>
+      <Time>2010-11-08T16:29:23.2313064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Loading\IMG00006.bmp</Source>
+      <Name>Loading\IMG00006</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Loading\IMG00006.xnb</Output>
+      <Time>2010-11-08T16:29:23.2343064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Loading\IMG00007.bmp</Source>
+      <Name>Loading\IMG00007</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Loading\IMG00007.xnb</Output>
+      <Time>2010-11-08T16:29:23.2693064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Loading\IMG00008.bmp</Source>
+      <Name>Loading\IMG00008</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Loading\IMG00008.xnb</Output>
+      <Time>2010-11-08T16:29:23.2723064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Loading\IMG00009.bmp</Source>
+      <Name>Loading\IMG00009</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Loading\IMG00009.xnb</Output>
+      <Time>2010-11-08T16:29:23.2743064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Loading\IMG00010.bmp</Source>
+      <Name>Loading\IMG00010</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Loading\IMG00010.xnb</Output>
+      <Time>2010-11-08T16:29:23.2773064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Loading\IMG00011.bmp</Source>
+      <Name>Loading\IMG00011</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Loading\IMG00011.xnb</Output>
+      <Time>2010-11-08T16:29:23.2953064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Loading\IMG00012.bmp</Source>
+      <Name>Loading\IMG00012</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Loading\IMG00012.xnb</Output>
+      <Time>2010-11-08T16:29:23.2983064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Loading\IMG00013.bmp</Source>
+      <Name>Loading\IMG00013</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Loading\IMG00013.xnb</Output>
+      <Time>2010-11-08T16:29:23.3013064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Loading\IMG00014.bmp</Source>
+      <Name>Loading\IMG00014</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Loading\IMG00014.xnb</Output>
+      <Time>2010-11-08T16:29:23.3043064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Loading\IMG00015.bmp</Source>
+      <Name>Loading\IMG00015</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Loading\IMG00015.xnb</Output>
+      <Time>2010-11-08T16:29:23.3073064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\texture.jpg</Source>
+      <Name>Menu\texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Menu\texture.xnb</Output>
+      <Time>2010-11-08T16:29:23.3483064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Cursor\cursor.png</Source>
+      <Name>Cursor\cursor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Cursor\cursor.xnb</Output>
+      <Time>2010-11-08T16:29:56.1453064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Particles\explosion.png</Source>
+      <Name>Particles\explosion</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Particles\explosion.xnb</Output>
+      <Time>2010-11-08T16:29:51.2513064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Particles\explosion3.jpg</Source>
+      <Name>Particles\explosion3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Particles\explosion3.xnb</Output>
+      <Time>2010-11-08T16:29:51.2543064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Particles\smoke.png</Source>
+      <Name>Particles\smoke</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Particles\smoke.xnb</Output>
+      <Time>2010-11-08T16:29:51.2593064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Particles\spiral.png</Source>
+      <Name>Particles\spiral</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Particles\spiral.xnb</Output>
+      <Time>2010-11-08T16:29:51.2613064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Radar\blip.png</Source>
+      <Name>Radar\blip</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Radar\blip.xnb</Output>
+      <Time>2010-11-08T16:29:51.2763064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Radar\radar.png</Source>
+      <Name>Radar\radar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Radar\radar.xnb</Output>
+      <Time>2010-11-29T11:32:20.6654331-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\80401__steveygos93__Explosion2.wav</Source>
+      <Name>Audio\80401__steveygos93__Explosion2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Audio\80401__steveygos93__Explosion2.xnb</Output>
+      <Time>2010-11-08T16:29:55.4293064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Audio Files\AfternoonAmbientBirdOneShot_05.wav</Source>
+      <Name>Audio\Audio Files\AfternoonAmbientBirdOneShot_05</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Audio\Audio Files\AfternoonAmbientBirdOneShot_05.xnb</Output>
+      <Time>2010-11-08T16:29:55.4393064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Audio Files\AfternoonAmbientBirdOneShot_07.wav</Source>
+      <Name>Audio\Audio Files\AfternoonAmbientBirdOneShot_07</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Audio\Audio Files\AfternoonAmbientBirdOneShot_07.xnb</Output>
+      <Time>2010-11-08T16:29:55.4583064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Audio Files\AfternoonAmbientBirdOneShot_08.wav</Source>
+      <Name>Audio\Audio Files\AfternoonAmbientBirdOneShot_08</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Audio\Audio Files\AfternoonAmbientBirdOneShot_08.xnb</Output>
+      <Time>2010-11-08T16:29:55.4823064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Audio Files\AfternoonAmbientBirdOneShot_09.wav</Source>
+      <Name>Audio\Audio Files\AfternoonAmbientBirdOneShot_09</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Audio\Audio Files\AfternoonAmbientBirdOneShot_09.xnb</Output>
+      <Time>2010-11-08T16:29:55.5113064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Audio Files\AfternoonAmbientWindOneShot_03.wav</Source>
+      <Name>Audio\Audio Files\AfternoonAmbientWindOneShot_03</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Audio\Audio Files\AfternoonAmbientWindOneShot_03.xnb</Output>
+      <Time>2010-11-08T16:29:55.5243064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Audio Files\AfternoonAmbientWindOneShot_04.wav</Source>
+      <Name>Audio\Audio Files\AfternoonAmbientWindOneShot_04</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Audio\Audio Files\AfternoonAmbientWindOneShot_04.xnb</Output>
+      <Time>2010-11-08T16:29:55.5353064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Audio Files\AfternoonAmbientWindOneShot_05.wav</Source>
+      <Name>Audio\Audio Files\AfternoonAmbientWindOneShot_05</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Audio\Audio Files\AfternoonAmbientWindOneShot_05.xnb</Output>
+      <Time>2010-11-08T16:29:55.5463064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Audio Files\building_crack.wav</Source>
+      <Name>Audio\Audio Files\building_crack</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Audio\Audio Files\building_crack.xnb</Output>
+      <Time>2010-11-08T16:29:55.6523064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Audio Files\elevate.wav</Source>
+      <Name>Audio\Audio Files\elevate</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Audio\Audio Files\elevate.xnb</Output>
+      <Time>2010-11-08T16:29:55.7183064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Audio Files\fire.wav</Source>
+      <Name>Audio\Audio Files\fire</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Audio\Audio Files\fire.xnb</Output>
+      <Time>2010-11-08T16:29:55.7633064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Audio Files\menu_select_change.wav</Source>
+      <Name>Audio\Audio Files\menu_select_change</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Audio\Audio Files\menu_select_change.xnb</Output>
+      <Time>2010-11-08T16:29:55.8343064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Audio Files\menu_select_enter.wav</Source>
+      <Name>Audio\Audio Files\menu_select_enter</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Audio\Audio Files\menu_select_enter.xnb</Output>
+      <Time>2010-11-08T16:29:55.8533064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Audio Files\piece_bounce.wav</Source>
+      <Name>Audio\Audio Files\piece_bounce</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Audio\Audio Files\piece_bounce.xnb</Output>
+      <Time>2010-11-08T16:29:55.8733064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Audio Files\power.wav</Source>
+      <Name>Audio\Audio Files\power</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Audio\Audio Files\power.xnb</Output>
+      <Time>2010-11-08T16:29:55.9273064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Audio Files\reload.wav</Source>
+      <Name>Audio\Audio Files\reload</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Audio\Audio Files\reload.xnb</Output>
+      <Time>2010-11-08T16:29:55.9663064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Audio Files\rotate.wav</Source>
+      <Name>Audio\Audio Files\rotate</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Audio\Audio Files\rotate.xnb</Output>
+      <Time>2010-11-08T16:29:56.0263064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\explo2.wav</Source>
+      <Name>Audio\explo2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Audio\explo2.xnb</Output>
+      <Time>2010-11-08T16:29:56.1163064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\menu_select_change.wav</Source>
+      <Name>Audio\menu_select_change</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Audio\menu_select_change.xnb</Output>
+      <Time>2010-11-08T16:29:56.1283064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\menu_select_enter.wav</Source>
+      <Name>Audio\menu_select_enter</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Audio\menu_select_enter.xnb</Output>
+      <Time>2010-11-08T16:29:56.1403064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\model.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Menu\model_0.xml</Output>
+      <Time>2010-11-08T16:29:23.3293064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\arty_plain_01.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Model\arty_plain_01_0.xml</Output>
+      <Time>2010-11-08T16:29:23.3593064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\bunker_1.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Model\bunker_1_0.xml</Output>
+      <Time>2010-11-08T16:29:23.3703064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\myTexture.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\myTexture_0.xnb</Output>
+      <Time>2010-11-08T16:29:23.9723064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\bunker_2.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Model\bunker_2_0.xml</Output>
+      <Time>2010-11-08T16:29:23.3873064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\myTexture2.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\myTexture2_0.xnb</Output>
+      <Time>2010-11-08T16:29:24.0293064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\bunker_3.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Model\bunker_3_0.xml</Output>
+      <Time>2010-11-08T16:29:23.4063064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\missile.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Model\missile_0.xml</Output>
+      <Time>2010-11-08T16:29:23.8913064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\missile.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\documents\visual studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\missile_0.xnb</Output>
+      <Time>2010-11-08T16:29:23.9163064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Effect\DrawShadowMap.fx</Source>
+      <Name>Effect\DrawShadowMap</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Effect\DrawShadowMap.xnb</Output>
+      <Time>2010-11-11T14:48:45.0440989-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\level2Ter.bmp</Source>
+      <Name>Terrain\level2Ter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\level2Ter.xnb</Output>
+      <Time>2010-12-09T16:19:58.9389056-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\level3Ter.bmp</Source>
+      <Name>Terrain\level3Ter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\level3Ter.xnb</Output>
+      <Time>2010-12-09T17:22:10.7419056-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\level4Ter.bmp</Source>
+      <Name>Terrain\level4Ter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\level4Ter.xnb</Output>
+      <Time>2010-12-09T17:52:34.0959056-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Font\Titles_font.spritefont</Source>
+      <Name>Font\Titles_font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Font\Titles_font.xnb</Output>
+      <Time>2010-11-15T19:09:05.6345103-06:00</Time>
+    </Item>
+    <Item>
+      <Source>WinLoose\win_loose_back.png</Source>
+      <Name>WinLoose\win_loose_back</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\WinLoose\win_loose_back.xnb</Output>
+      <Time>2010-11-15T13:39:25.8335103-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\clear.png</Source>
+      <Name>Menu\clear</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Menu\clear.xnb</Output>
+      <Time>2010-11-15T16:57:50.5145103-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\level.png</Source>
+      <Name>Menu\level</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Menu\level.xnb</Output>
+      <Time>2010-11-15T16:57:50.5115103-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\locked.png</Source>
+      <Name>Menu\locked</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Menu\locked.xnb</Output>
+      <Time>2010-11-15T16:57:50.5165103-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\buttona.png</Source>
+      <Name>Menu\buttona</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Menu\buttona.xnb</Output>
+      <Time>2010-11-17T16:11:51.88211-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\buttonb.png</Source>
+      <Name>Menu\buttonb</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Menu\buttonb.xnb</Output>
+      <Time>2010-11-17T16:11:51.88511-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Firework\firework_sheet.png</Source>
+      <Name>Firework\firework_sheet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Firework\firework_sheet.xnb</Output>
+      <Time>2010-11-17T02:13:57.1687045-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Radar\timer.png</Source>
+      <Name>Radar\timer</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Radar\timer.xnb</Output>
+      <Time>2010-11-23T05:45:15.7597098-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\background01.jpg</Source>
+      <Name>Menu\background01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Menu\background01.xnb</Output>
+      <Time>2010-11-23T09:10:02.7097098-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\background02.jpg</Source>
+      <Name>Menu\background02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Menu\background02.xnb</Output>
+      <Time>2010-11-23T07:46:38.8107098-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\ring_Sub.fbx</Source>
+      <Name>Model\ring_Sub</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\ring_Sub.xnb</Output>
+      <Time>2010-11-29T10:54:19.9184331-06:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Model\ring_Sub_0.xml</Key>
+        <Value>2010-11-30T13:06:49.7811092-06:00</Value>
+      </Dependency>
+      <Request>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\ring_Sub_Cube_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Terrain\sphere.fbx</Source>
+      <Name>Terrain\sphere</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\sphere.xnb</Output>
+      <Time>2010-11-29T18:44:52.1464331-06:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Terrain\sphere_0.xml</Key>
+        <Value>2010-11-30T13:06:50.7641092-06:00</Value>
+      </Dependency>
+      <Request>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\clouds_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Terrain\level5Ter.bmp</Source>
+      <Name>Terrain\level5Ter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\level5Ter.xnb</Output>
+      <Time>2010-12-09T17:59:28.2129056-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\decal_empty.bmp</Source>
+      <Name>Terrain\decal_empty</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\decal_empty.xnb</Output>
+      <Time>2010-11-29T16:27:49.2794331-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\level1Ter.bmp</Source>
+      <Name>Terrain\level1Ter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\level1Ter.xnb</Output>
+      <Time>2010-12-09T14:40:16.5129056-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\level6Ter.bmp</Source>
+      <Name>Terrain\level6Ter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\level6Ter.xnb</Output>
+      <Time>2010-12-01T14:59:13.8219074-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\level7Ter.bmp</Source>
+      <Name>Terrain\level7Ter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\level7Ter.xnb</Output>
+      <Time>2010-12-16T21:46:43.3287112-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\level8Ter.bmp</Source>
+      <Name>Terrain\level8Ter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\level8Ter.xnb</Output>
+      <Time>2010-12-01T15:02:29.3789074-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\level9Ter.bmp</Source>
+      <Name>Terrain\level9Ter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\level9Ter.xnb</Output>
+      <Time>2010-11-30T12:51:34.1581092-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\ring_Sub.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Model\ring_Sub_0.xml</Output>
+      <Time>2010-11-29T10:54:19.9184331-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\ring_Sub_Cube.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\ring_Sub_Cube_0.xnb</Output>
+      <Time>2010-11-29T10:58:28.6234331-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\sphere.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Terrain\sphere_0.xml</Output>
+      <Time>2010-11-29T18:44:52.1464331-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\clouds.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\clouds_0.xnb</Output>
+      <Time>2010-11-17T20:52:00.13911-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Font\gamefont.spritefont</Source>
+      <Name>Font\gamefont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Font\gamefont.xnb</Output>
+      <Time>2010-11-08T16:31:39.5333064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Font\menufont.spritefont</Source>
+      <Name>Font\menufont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Font\menufont.xnb</Output>
+      <Time>2010-11-17T16:01:01.33711-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\arty_tex.fbx</Source>
+      <Name>Model\arty_tex</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\arty_tex.xnb</Output>
+      <Time>2010-11-30T17:28:09.9631092-06:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Model\arty_tex_0.xml</Key>
+        <Value>2010-12-03T14:26:01.4017001-06:00</Value>
+      </Dependency>
+      <Request>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\arty_cannon_cannonM_0.xnb</Request>
+      <Request>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\arty_turret_turretM_0.xnb</Request>
+      <Request>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\arty_base_baseM_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\building_tower.fbx</Source>
+      <Name>Model\building_tower</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\building_tower.xnb</Output>
+      <Time>2010-12-01T16:07:38.9199074-06:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Model\building_tower_0.xml</Key>
+        <Value>2010-12-03T14:26:03.5927001-06:00</Value>
+      </Dependency>
+      <Request>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\building_tower_Cube_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\building_tower_xna.fbx</Source>
+      <Name>Model\building_tower_xna</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\building_tower_xna.xnb</Output>
+      <Time>2010-12-01T15:58:01.6549074-06:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Model\building_tower_xna_0.xml</Key>
+        <Value>2010-12-03T14:26:04.6217001-06:00</Value>
+      </Dependency>
+      <Request>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\building_tower_Cube_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\building_tower_base.fbx</Source>
+      <Name>Model\building_tower_base</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\building_tower_base.xnb</Output>
+      <Time>2010-12-01T20:30:17.3509074-06:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Model\building_tower_base_0.xml</Key>
+        <Value>2010-12-03T14:26:04.8897001-06:00</Value>
+      </Dependency>
+      <Request>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\building_tower_base_Cube_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\building_tower_front1.fbx</Source>
+      <Name>Model\building_tower_front1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\building_tower_front1.xnb</Output>
+      <Time>2010-12-02T12:56:40.7444979-06:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Model\building_tower_front1_0.xml</Key>
+        <Value>2010-12-03T14:26:05.7447001-06:00</Value>
+      </Dependency>
+      <Request>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\building_tower_front_1_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\building_tower_front2.fbx</Source>
+      <Name>Model\building_tower_front2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\building_tower_front2.xnb</Output>
+      <Time>2010-12-02T12:56:40.7284979-06:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Model\building_tower_front2_0.xml</Key>
+        <Value>2010-12-03T14:26:06.8327001-06:00</Value>
+      </Dependency>
+      <Request>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\building_tower_front_2_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\building_tower_front3.fbx</Source>
+      <Name>Model\building_tower_front3</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\building_tower_front3.xnb</Output>
+      <Time>2010-12-02T12:56:40.7204979-06:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Model\building_tower_front3_0.xml</Key>
+        <Value>2010-12-03T14:26:07.4907001-06:00</Value>
+      </Dependency>
+      <Request>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\building_tower_front_3_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\building_tower_front4.fbx</Source>
+      <Name>Model\building_tower_front4</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\building_tower_front4.xnb</Output>
+      <Time>2010-12-02T12:56:40.7364979-06:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Model\building_tower_front4_0.xml</Key>
+        <Value>2010-12-03T14:26:08.1547001-06:00</Value>
+      </Dependency>
+      <Request>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\building_tower_front_4_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Menu\chat_able.png</Source>
+      <Name>Menu\chat_able</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Menu\chat_able.xnb</Output>
+      <Time>2010-11-08T16:31:39.5763064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\chat_mute.png</Source>
+      <Name>Menu\chat_mute</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Menu\chat_mute.xnb</Output>
+      <Time>2010-11-08T16:31:39.5793064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\chat_ready.png</Source>
+      <Name>Menu\chat_ready</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Menu\chat_ready.xnb</Output>
+      <Time>2010-11-08T16:31:39.5823064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\chat_talking.png</Source>
+      <Name>Menu\chat_talking</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Menu\chat_talking.xnb</Output>
+      <Time>2010-11-08T16:31:39.5313064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Radar\power_case.png</Source>
+      <Name>Radar\power_case</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Radar\power_case.xnb</Output>
+      <Time>2010-11-17T03:14:32.9377045-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Radar\angle.png</Source>
+      <Name>Radar\angle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Radar\angle.xnb</Output>
+      <Time>2010-11-17T03:43:05.3327045-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Radar\bullets.png</Source>
+      <Name>Radar\bullets</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Radar\bullets.xnb</Output>
+      <Time>2010-11-17T04:19:00.1127045-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Radar\power_bar.png</Source>
+      <Name>Radar\power_bar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Radar\power_bar.xnb</Output>
+      <Time>2010-11-17T03:14:57.6797045-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\gradient2.png</Source>
+      <Name>Menu\gradient2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Menu\gradient2.xnb</Output>
+      <Time>2010-12-15T01:00:55.5031082-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Particles\concrete.png</Source>
+      <Name>Particles\concrete</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Particles\concrete.xnb</Output>
+      <Time>2010-11-18T01:09:26.7323073-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Particles\spark.png</Source>
+      <Name>Particles\spark</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Particles\spark.xnb</Output>
+      <Time>2010-11-18T01:18:56.6933073-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Particles\smoke2.png</Source>
+      <Name>Particles\smoke2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="PremultiplyAlpha">False</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Particles\smoke2.xnb</Output>
+      <Time>2010-11-18T03:04:07.3573073-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\level21Ter.bmp</Source>
+      <Name>Terrain\level21Ter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\level21Ter.xnb</Output>
+      <Time>2010-12-15T20:42:58.9907177-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\level22Ter.bmp</Source>
+      <Name>Terrain\level22Ter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\level22Ter.xnb</Output>
+      <Time>2010-12-01T10:38:35.3419074-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\level23Ter.bmp</Source>
+      <Name>Terrain\level23Ter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\level23Ter.xnb</Output>
+      <Time>2010-12-15T21:25:27.5167177-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\level24Ter.bmp</Source>
+      <Name>Terrain\level24Ter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\level24Ter.xnb</Output>
+      <Time>2010-12-15T21:40:11.9137177-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\arty_tex.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Model\arty_tex_0.xml</Output>
+      <Time>2010-11-30T17:28:09.9631092-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\arty_cannon_cannonM.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\arty_cannon_cannonM_0.xnb</Output>
+      <Time>2010-11-30T16:40:44.5301092-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\arty_turret_turretM.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\arty_turret_turretM_0.xnb</Output>
+      <Time>2010-11-30T16:40:44.5251092-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\arty_base_baseM.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\arty_base_baseM_0.xnb</Output>
+      <Time>2010-11-30T16:40:44.5281092-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\building_tower.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Model\building_tower_0.xml</Output>
+      <Time>2010-12-01T16:07:38.9199074-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\building_tower_Cube.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\building_tower_Cube_0.xnb</Output>
+      <Time>2010-12-01T20:41:47.3019074-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\building_tower_xna.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Model\building_tower_xna_0.xml</Output>
+      <Time>2010-12-01T15:58:01.6549074-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\building_tower_base.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Model\building_tower_base_0.xml</Output>
+      <Time>2010-12-01T20:30:17.3509074-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\building_tower_base_Cube.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\building_tower_base_Cube_0.xnb</Output>
+      <Time>2010-12-01T20:30:08.2149074-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\building_tower_front1.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Model\building_tower_front1_0.xml</Output>
+      <Time>2010-12-02T12:56:40.7444979-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\building_tower_front_1.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\building_tower_front_1_0.xnb</Output>
+      <Time>2010-12-02T12:44:23.6064979-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\building_tower_front2.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Model\building_tower_front2_0.xml</Output>
+      <Time>2010-12-02T12:56:40.7284979-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\building_tower_front_2.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\building_tower_front_2_0.xnb</Output>
+      <Time>2010-12-02T12:44:23.5964979-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\building_tower_front3.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Model\building_tower_front3_0.xml</Output>
+      <Time>2010-12-02T12:56:40.7204979-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\building_tower_front_3.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\building_tower_front_3_0.xnb</Output>
+      <Time>2010-12-02T12:44:23.6004979-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\building_tower_front4.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Model\building_tower_front4_0.xml</Output>
+      <Time>2010-12-02T12:56:40.7364979-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\building_tower_front_4.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\building_tower_front_4_0.xnb</Output>
+      <Time>2010-12-02T12:44:23.6034979-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\artillery.fbx</Source>
+      <Name>Model\artillery</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\artillery.xnb</Output>
+      <Time>2010-12-06T18:49:05.7845126-06:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Model\artillery_0.xml</Key>
+        <Value>2010-12-17T01:20:52.8747112-06:00</Value>
+      </Dependency>
+      <Request>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\artillery_cannon_0.xnb</Request>
+      <Request>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\artillery_turret_0.xnb</Request>
+      <Request>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\artillery_base_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\artillery2.fbx</Source>
+      <Name>Model\artillery2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\artillery2.xnb</Output>
+      <Time>2010-12-06T18:50:35.4495126-06:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Model\artillery2_0.xml</Key>
+        <Value>2010-12-17T01:20:55.3587112-06:00</Value>
+      </Dependency>
+      <Request>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\artillery_cannon_0.xnb</Request>
+      <Request>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\artillery_turret_0.xnb</Request>
+      <Request>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\artillery_base_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\fueldepot.fbx</Source>
+      <Name>Model\fueldepot</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\fueldepot.xnb</Output>
+      <Time>2010-12-07T15:54:36.4998937-06:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Model\fueldepot_0.xml</Key>
+        <Value>2010-12-17T01:20:55.5987112-06:00</Value>
+      </Dependency>
+      <Request>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\fueldepot_depot_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\fueldepot_base.fbx</Source>
+      <Name>Model\fueldepot_base</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\fueldepot_base.xnb</Output>
+      <Time>2010-12-07T15:54:36.4908937-06:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Model\fueldepot_base_0.xml</Key>
+        <Value>2010-12-17T01:20:56.2377112-06:00</Value>
+      </Dependency>
+      <Request>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\fueldepot_base_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\fueldepot_1.fbx</Source>
+      <Name>Model\fueldepot_1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\fueldepot_1.xnb</Output>
+      <Time>2010-12-07T15:37:25.5178937-06:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Model\fueldepot_1_0.xml</Key>
+        <Value>2010-12-17T01:20:56.9167112-06:00</Value>
+      </Dependency>
+      <Request>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\fueldepot_1_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\fueldepot_2.fbx</Source>
+      <Name>Model\fueldepot_2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\fueldepot_2.xnb</Output>
+      <Time>2010-12-07T15:37:25.5088937-06:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Model\fueldepot_2_0.xml</Key>
+        <Value>2010-12-17T01:20:57.4967112-06:00</Value>
+      </Dependency>
+      <Request>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\fueldepot_2_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\fueldepot_3.fbx</Source>
+      <Name>Model\fueldepot_3</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\fueldepot_3.xnb</Output>
+      <Time>2010-12-07T15:37:25.4998937-06:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Model\fueldepot_3_0.xml</Key>
+        <Value>2010-12-17T01:20:58.1067112-06:00</Value>
+      </Dependency>
+      <Request>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\fueldepot_3_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\fueldepot_4.fbx</Source>
+      <Name>Model\fueldepot_4</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\fueldepot_4.xnb</Output>
+      <Time>2010-12-07T15:37:25.4908937-06:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Model\fueldepot_4_0.xml</Key>
+        <Value>2010-12-17T01:20:58.4647112-06:00</Value>
+      </Dependency>
+      <Request>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\fueldepot_4_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\bullet.fbx</Source>
+      <Name>Model\bullet</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\bullet.xnb</Output>
+      <Time>2010-12-07T16:03:49.3208937-06:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Debug\Model\bullet_0.xml</Key>
+        <Value>2010-12-17T01:20:58.9837112-06:00</Value>
+      </Dependency>
+      <Request>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\bullet_bullet_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Menu\blank.png</Source>
+      <Name>Menu\blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="PremultiplyAlpha">False</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Menu\blank.xnb</Output>
+      <Time>2010-11-08T16:31:39.5723064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\level10Ter.bmp</Source>
+      <Name>Terrain\level10Ter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\level10Ter.xnb</Output>
+      <Time>2010-12-14T20:28:12.5261082-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\level11Ter.bmp</Source>
+      <Name>Terrain\level11Ter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\level11Ter.xnb</Output>
+      <Time>2010-12-14T20:36:56.4111082-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\level12Ter.bmp</Source>
+      <Name>Terrain\level12Ter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\level12Ter.xnb</Output>
+      <Time>2010-12-14T20:42:00.4961082-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\level25Ter.bmp</Source>
+      <Name>Terrain\level25Ter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\level25Ter.xnb</Output>
+      <Time>2010-12-14T23:11:08.3521082-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\level26Ter.bmp</Source>
+      <Name>Terrain\level26Ter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\level26Ter.xnb</Output>
+      <Time>2010-12-14T23:18:41.5551082-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\level32Ter.bmp</Source>
+      <Name>Terrain\level32Ter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\level32Ter.xnb</Output>
+      <Time>2010-12-15T02:14:06.7221082-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\level27Ter.bmp</Source>
+      <Name>Terrain\level27Ter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\level27Ter.xnb</Output>
+      <Time>2010-12-15T23:23:32.5677177-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\level28Ter.bmp</Source>
+      <Name>Terrain\level28Ter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\level28Ter.xnb</Output>
+      <Time>2010-12-15T03:58:53.4493026-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\level29Ter.bmp</Source>
+      <Name>Terrain\level29Ter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\level29Ter.xnb</Output>
+      <Time>2010-12-15T04:07:22.5113026-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\level30Ter.bmp</Source>
+      <Name>Terrain\level30Ter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\level30Ter.xnb</Output>
+      <Time>2010-12-15T04:16:43.7663026-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\level31Ter.bmp</Source>
+      <Name>Terrain\level31Ter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\level31Ter.xnb</Output>
+      <Time>2010-12-16T00:57:32.2891114-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\001_1mud.jpg</Source>
+      <Name>Terrain\001_1mud</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\001_1mud.xnb</Output>
+      <Time>2010-11-29T11:54:32.8384331-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\001_2grass.jpg</Source>
+      <Name>Terrain\001_2grass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\001_2grass.xnb</Output>
+      <Time>2010-11-29T11:39:47.8674331-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\001_3grass_rock.jpg</Source>
+      <Name>Terrain\001_3grass_rock</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\001_3grass_rock.xnb</Output>
+      <Time>2010-11-17T20:47:33.44511-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\001_4rock.jpg</Source>
+      <Name>Terrain\001_4rock</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\001_4rock.xnb</Output>
+      <Time>2010-12-01T11:58:41.3669074-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\001_clouds.jpg</Source>
+      <Name>Terrain\001_clouds</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\001_clouds.xnb</Output>
+      <Time>2010-11-17T20:52:00.13911-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\002_clouds_green.jpg</Source>
+      <Name>Terrain\002_clouds_green</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\002_clouds_green.xnb</Output>
+      <Time>2010-12-01T12:15:46.4309074-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\005_1noodles_red.jpg</Source>
+      <Name>Terrain\005_1noodles_red</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\005_1noodles_red.xnb</Output>
+      <Time>2010-11-30T15:06:41.0571092-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\005_2fire_orange.jpg</Source>
+      <Name>Terrain\005_2fire_orange</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\005_2fire_orange.xnb</Output>
+      <Time>2010-12-16T06:35:17.1641114-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\005_3fire_red.jpg</Source>
+      <Name>Terrain\005_3fire_red</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\005_3fire_red.xnb</Output>
+      <Time>2010-11-30T15:09:49.9691092-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\005_4ash_red.jpg</Source>
+      <Name>Terrain\005_4ash_red</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\005_4ash_red.xnb</Output>
+      <Time>2010-11-30T15:07:34.2711092-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\005_red_clouds.jpg</Source>
+      <Name>Terrain\005_red_clouds</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\005_red_clouds.xnb</Output>
+      <Time>2010-12-16T06:36:00.2511114-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\002_1sand.jpg</Source>
+      <Name>Terrain\002_1sand</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\002_1sand.xnb</Output>
+      <Time>2010-12-16T06:49:42.0901114-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\002_2grass.jpg</Source>
+      <Name>Terrain\002_2grass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\002_2grass.xnb</Output>
+      <Time>2010-12-16T06:51:15.5031114-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\002_3grass_rock.jpg</Source>
+      <Name>Terrain\002_3grass_rock</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\002_3grass_rock.xnb</Output>
+      <Time>2010-12-16T06:53:47.2671114-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\002_4rock.jpg</Source>
+      <Name>Terrain\002_4rock</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\002_4rock.xnb</Output>
+      <Time>2010-12-16T06:55:32.6721114-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\004_clouds.jpg</Source>
+      <Name>Terrain\004_clouds</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\004_clouds.xnb</Output>
+      <Time>2010-12-16T07:31:39.2341114-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\004_1lower.jpg</Source>
+      <Name>Terrain\004_1lower</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\004_1lower.xnb</Output>
+      <Time>2010-12-16T07:10:39.1081114-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\004_2mid.jpg</Source>
+      <Name>Terrain\004_2mid</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\004_2mid.xnb</Output>
+      <Time>2010-12-16T07:27:30.0041114-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\004_3mid_high.jpg</Source>
+      <Name>Terrain\004_3mid_high</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\004_3mid_high.xnb</Output>
+      <Time>2010-12-16T07:39:16.8171114-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\004_4high.jpg</Source>
+      <Name>Terrain\004_4high</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Terrain\004_4high.xnb</Output>
+      <Time>2010-12-16T07:27:42.8711114-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\artillery.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Model\artillery_0.xml</Output>
+      <Time>2010-12-06T18:49:05.7845126-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\artillery_cannon.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\artillery_cannon_0.xnb</Output>
+      <Time>2010-12-06T18:24:43.3655126-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\artillery_turret.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\artillery_turret_0.xnb</Output>
+      <Time>2010-12-06T18:24:43.3685126-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\artillery_base.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\artillery_base_0.xnb</Output>
+      <Time>2010-12-06T18:24:43.3625126-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\artillery2.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Model\artillery2_0.xml</Output>
+      <Time>2010-12-06T18:50:35.4495126-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\fueldepot.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Model\fueldepot_0.xml</Output>
+      <Time>2010-12-07T15:54:36.4998937-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\fueldepot_depot.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\fueldepot_depot_0.xnb</Output>
+      <Time>2010-12-07T14:35:31.7768937-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\fueldepot_base.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Model\fueldepot_base_0.xml</Output>
+      <Time>2010-12-07T15:54:36.4908937-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\fueldepot_base.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\fueldepot_base_0.xnb</Output>
+      <Time>2010-12-07T14:35:31.7738937-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\fueldepot_1.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Model\fueldepot_1_0.xml</Output>
+      <Time>2010-12-07T15:37:25.5178937-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\fueldepot_1.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\fueldepot_1_0.xnb</Output>
+      <Time>2010-12-07T14:35:31.7638937-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\fueldepot_2.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Model\fueldepot_2_0.xml</Output>
+      <Time>2010-12-07T15:37:25.5088937-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\fueldepot_2.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\fueldepot_2_0.xnb</Output>
+      <Time>2010-12-07T14:35:31.7668937-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\fueldepot_3.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Model\fueldepot_3_0.xml</Output>
+      <Time>2010-12-07T15:37:25.4998937-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\fueldepot_3.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\fueldepot_3_0.xnb</Output>
+      <Time>2010-12-07T15:21:03.3918937-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\fueldepot_4.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Model\fueldepot_4_0.xml</Output>
+      <Time>2010-12-07T15:37:25.4908937-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\fueldepot_4.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\fueldepot_4_0.xnb</Output>
+      <Time>2010-12-07T15:21:12.0148937-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\bullet.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Debug\Model\bullet_0.xml</Output>
+      <Time>2010-12-07T16:03:49.3208937-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\bullet_bullet.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Model\bullet_bullet_0.xnb</Output>
+      <Time>2010-12-07T15:59:01.8648937-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Particles\fire.png</Source>
+      <Name>Particles\fire</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="PremultiplyAlpha">False</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Particles\fire.xnb</Output>
+      <Time>2010-11-08T16:29:51.2563064-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Radar\lines3.png</Source>
+      <Name>Radar\lines3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="PremultiplyAlpha">False</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Radar\lines3.xnb</Output>
+      <Time>2010-12-17T10:05:12.8797112-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Radar\post_screen.png</Source>
+      <Name>Radar\post_screen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="PremultiplyAlpha">False</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\Radar\post_screen.xnb</Output>
+      <Time>2010-12-17T10:01:25.3427112-06:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Xbox360</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0Content\obj\Xbox 360\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Admin\Documents\Visual Studio 2010\Projects\TerrainGame4_0\TerrainGame4_0\TerrainGame4_0\bin\Xbox 360\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T13:41:18-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T13:41:18-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2010-11-08T15:52:20.8053064-06:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
